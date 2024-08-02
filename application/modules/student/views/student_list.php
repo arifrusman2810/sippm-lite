@@ -29,7 +29,7 @@
 							<div class="row">
 								<form action="<?php echo site_url('manage/student/multiple'); ?>" method="post">
 									<input type="hidden" name="action" value="printPdf">
-									<button type="submit" class="btn btn-danger btn-sm" formtarget="_blank"><span class="fa fa-print"></span> Cetak Kartu</button>
+									<!-- <button type="submit" class="btn btn-danger btn-sm" formtarget="_blank"><span class="fa fa-print"></span> Cetak Kartu</button> -->
 
 									<?php if ($this->session->userdata('uroleid') == SUPERUSER) { ?>
 										<a href="<?php echo site_url('manage/student/add') ?>" class="btn btn-sm btn-success"><i class="fa fa-plus"></i> Tambah Data</a>

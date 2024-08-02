@@ -112,7 +112,7 @@ class Payout_set extends CI_Controller
     $config['suffix'] = '?' . http_build_query($_GET, '', "&");
     $config['total_rows'] = count($this->Bulan_model->get($paramsPage));
 
-    $data['title'] = 'Transaksi Pembayaran Siswa';
+    $data['title'] = 'Data Siswa';
     $data['main'] = 'payout/payout_list';
     $this->load->view('manage/layout', $data);
   }

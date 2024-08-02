@@ -15,7 +15,7 @@
 				<div class="box box-success">
 					<div class="box-header with-border text-left">
 						<div class="col-sm-6">
-							<h3 class="box-title">Filter Transaksi Pembayaran</h3>
+							<h3 class="box-title">Data Siswa</h3>
 						</div>
 						<div class="col-sm-6 text-right">
 							<a href="<?php echo site_url('manage/student') ?>" class="btn btn-xs btn-success" style="margin-right: -15px;"><i class="fa fa-navicon"></i> Referensi Data Siswa</a>
@@ -32,7 +32,7 @@
 							</select>
 						</div>
 						<div class="col-md-6">
-							<label for="" class="control-label">Input Berdasarkan NIM Siswa</label><br><br>
+							<label for="" class="control-label">Nomor Induk Siswa</label><br><br>
 							<div class="input-group">
 								<input type="text" class="form-control" autofocus name="r" <?php echo (isset($f['r'])) ? 'placeholder="' . $f['r'] . '"' : 'placeholder="Masukkan NIM Siswa"' ?> required>
 								<span class="input-group-btn">

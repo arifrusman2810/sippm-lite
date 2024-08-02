@@ -115,24 +115,6 @@
           </li>
         <?php } ?>
 
-        <li class="<?php echo ($this->uri->segment(2) == 'report' or $this->uri->segment(3) == 'report_bill') ? 'active' : '' ?> treeview">
-          <a href="#">
-            <i class="fa fa-file-text text-stock"></i> <span>LAPORAN</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-            <li class="<?php echo ($this->uri->segment(2) == 'report' and $this->uri->segment(3) != 'report_bill') ? 'active' : '' ?> ">
-              <a href="<?php echo site_url('manage/report') ?>"><i class="fa  <?php echo ($this->uri->segment(2) == 'report' and $this->uri->segment(3) != 'report_bill') ? 'fa-dot-circle-o' : 'fa-circle-o' ?>"></i> LAPORAN TOTAL KEUANGAN</a>
-            </li>
-
-            <li class="<?php echo ($this->uri->segment(3) == 'report_bill') ? 'active' : '' ?> ">
-              <a href="<?php echo site_url('manage/report/report_bill') ?>"><i class="fa  <?php echo ($this->uri->segment(3) == 'report_bill') ? 'fa-dot-circle-o' : 'fa-circle-o' ?>"></i> LAPORAN PER-KELAS</a>
-            </li>
-          </ul>
-        </li>
-
         <li class="<?php echo ($this->uri->segment(2) == 'users') ? 'active' : '' ?>">
           <a href="<?php echo site_url('manage/users'); ?>">
             <i class="fa fa-user"></i> <span>PENGGUNA APLIKASI</span>
