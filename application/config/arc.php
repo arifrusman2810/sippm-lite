@@ -18,7 +18,7 @@ $config['media_url'] = '-';
 | 
 |
 */
-$config['app_name'] = 'SIPPM';
+$config['app_name'] = 'SDN24TLKP';
 $config['version'] = 'V.1.0';
 $config['created'] = 'Copyright © ' . date('Y');
 
